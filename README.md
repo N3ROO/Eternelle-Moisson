@@ -4,10 +4,10 @@ Un outil pour gérer la quête du [Dofus](http://dofus.com) Ocre pour le jeu du 
 ## Versions
 L'outil est actuellement en beta.
 
-Une liste des fonctionnalités prévues est disponible ici : https://github.com/Mopolo/Eternelle-Moisson/milestones/Version%201
+Une liste des fonctionnalités prévues est disponible ici : https://github.com/N3ROO/Eternelle-Moisson/milestones/Version%201
 
 ## Utilisation
-Il est utilisable soit en ligne : https://mopolo.github.io/Eternelle-Moisson/
+Il est utilisable soit en ligne : https://nero.dev/Eternelle-Moisson/
 
 Soit en l'hébergeant soit même.
 
