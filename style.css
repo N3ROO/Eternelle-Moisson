@@ -1,0 +1,127 @@
+body {
+    padding-top: 60px;
+}
+
+.label {
+    margin-right: 5px;
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+.bg-black {
+    background: rgb(45, 50, 55);
+}
+
+.bottom-gradient {
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    -moz-border-image: linear-gradient(
+            to right,
+            rgb(1,174,239) 0%,
+            rgb(122,30,179) 50%,
+            rgb(238,1,67) 100%
+        ) 1;
+    -webkit-border-image: linear-gradient(
+            to right,
+            rgb(1,174,239) 0%,
+            rgb(122,30,179) 50%,
+            rgb(238,1,67) 100%
+        ) 1;
+    -o-border-image: linear-gradient(
+            to right,
+            rgb(1,174,239) 0%,
+            rgb(122,30,179) 50%,
+            rgb(238,1,67) 100%
+        ) 1;
+    border-image: linear-gradient(
+            to right,
+            rgb(1,174,239) 0%,
+            rgb(122,30,179) 50%,
+            rgb(238,1,67) 100%
+        ) 1;
+}
+
+/*************************************/
+/* Label / Button / Progressbar (overrides bootstrap)
+/************************************/
+
+.progress-bar-primary {
+    background: rgb(238,1,67) 100%;
+    background: -moz-linear-gradient(right, rgb(1,174,239) 0%, rgb(122,30,179) 100%) !important;
+    background: -webkit-linear-gradient(right, rgb(1,174,239) 0%, rgb(122,30,179) 100%) !important;
+    background: linear-gradient(right, rgb(1,174,239) 0%, rgb(122,30,179) 100%) !important;
+}
+
+.label {
+    background: rgb(1,174,239) 100% !important;
+}
+
+.btn-info {
+    background: rgb(122,30,179);
+}
+
+.btn-info:hover,.btn-info:focus {
+    background: rgb(90, 30, 128)
+}
+
+/*************************************/
+/* Navbar style (overrides bootstrap)
+/************************************/
+
+nav .navbar-header>.navbar-toggle:hover {
+    background-color: rgb(45, 50, 55);
+    border-color: rgb(255, 255, 255, 0.5);
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: rgb(45, 50, 55);
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: rgb(45, 50, 55);
+}
+
+.navbar-collapse.collapse.in,.navbar-collapse.collapsing {
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    -moz-border-image: linear-gradient(
+            to right,
+            rgb(1,174,239) 0%,
+            rgb(122,30,179) 50%,
+            rgb(238,1,67) 100%
+        ) 1;
+    -webkit-border-image: linear-gradient(
+            to right,
+            rgb(1,174,239) 0%,
+            rgb(122,30,179) 50%,
+            rgb(238,1,67) 100%
+        ) 1;
+    -o-border-image: linear-gradient(
+            to right,
+            rgb(1,174,239) 0%,
+            rgb(122,30,179) 50%,
+            rgb(238,1,67) 100%
+        ) 1;
+    border-image: linear-gradient(
+            to right,
+            rgb(1,174,239) 0%,
+            rgb(122,30,179) 50%,
+            rgb(238,1,67) 100%
+        ) 1;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 50, 55);
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(45, 50, 55);
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: rgb(170, 170, 170);
+}
