@@ -209,7 +209,6 @@
         });
     }
 
-    angular.module('app')
-        .controller('AppCtrl', AppCtrl);
+    angular.module('app').controller('AppCtrl', AppCtrl);
 
 }());
